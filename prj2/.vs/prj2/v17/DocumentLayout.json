@@ -1,18 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\K23CNT2_PRJ2\\prj2\\",
+  "WorkspaceRootPath": "C:\\K23CNT2_NVK_PRJ2\\prj2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_prj2\\prj2\\prj2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\models\\fastfooddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\models\\fastfooddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\models\\fastfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\models\\fastfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_prj2\\prj2\\prj2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_nvk_prj2\\prj2\\prj2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|c:\\k23cnt2_prj2\\prj2\\prj2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{633726F1-A972-48F4-ABDC-1317CB92BB92}|prj2\\prj2.csproj|solutionrelative:prj2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,24 +58,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T06:19:56.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T06:16:57.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "prj2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "prj2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T06:16:23.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "prj2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "prj2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T06:11:24.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "prj2\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "prj2\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T06:11:21.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FastFood.cs",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\FastFood.cs",
+              "RelativeDocumentMoniker": "prj2\\Models\\FastFood.cs",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\FastFood.cs",
+              "RelativeToolTip": "prj2\\Models\\FastFood.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T06:11:18.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FastFoodDbContext.cs",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\FastFoodDbContext.cs",
+              "RelativeDocumentMoniker": "prj2\\Models\\FastFoodDbContext.cs",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Models\\FastFoodDbContext.cs",
+              "RelativeToolTip": "prj2\\Models\\FastFoodDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T06:10:59.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\appsettings.json",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\appsettings.json",
               "RelativeDocumentMoniker": "prj2\\appsettings.json",
-              "ToolTip": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\appsettings.json",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\appsettings.json",
               "RelativeToolTip": "prj2\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-08T05:29:56.517Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "prj2\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "prj2\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -56,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\Program.cs",
+              "DocumentMoniker": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Program.cs",
               "RelativeDocumentMoniker": "prj2\\Program.cs",
-              "ToolTip": "C:\\K23CNT2_PRJ2\\prj2\\prj2\\Program.cs",
+              "ToolTip": "C:\\K23CNT2_NVK_PRJ2\\prj2\\prj2\\Program.cs",
               "RelativeToolTip": "prj2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T05:29:08.832Z",
               "EditorCaption": ""
