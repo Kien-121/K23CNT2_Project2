@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\K23CNT2_NVK_PRJ2\\project2\\project2\\project2.csproj": {}
+    "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\project2.csproj": {}
   },
   "projects": {
-    "C:\\K23CNT2_NVK_PRJ2\\project2\\project2\\project2.csproj": {
+    "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\project2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\K23CNT2_NVK_PRJ2\\project2\\project2\\project2.csproj",
+        "projectUniqueName": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\project2.csproj",
         "projectName": "project2",
-        "projectPath": "C:\\K23CNT2_NVK_PRJ2\\project2\\project2\\project2.csproj",
+        "projectPath": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\project2.csproj",
         "packagesPath": "C:\\Users\\Nguyen Van Kien\\.nuget\\packages\\",
         "outputPath": "C:\\K23CNT2_NVK_PRJ2\\project2\\project2\\obj\\",
         "projectStyle": "PackageReference",
