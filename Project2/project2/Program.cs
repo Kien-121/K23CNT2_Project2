@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using project2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +10,12 @@ builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("NvkDbConnect");
 builder.Services.AddDbContext<QlbanDoAnContext>(x => x.UseSqlServer(connectionString));
+
+builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.LogoutPath = "/Account/Logout";
+});
 
 var app = builder.Build();
 

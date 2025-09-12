@@ -1,39 +1,39 @@
 ﻿@model IEnumerable<project2.Models.DanhMuc>
 
-<h2>🍔 Trang chủ - Menu đồ ăn</h2>
+<div class="banner">
+    <img src="~/img/banner.jpg" alt="Banner" />
+</div>
+
+<h2 class="menu-title">🍔 Trang chủ - Menu đồ ăn</h2>
 
 @foreach (var dm in Model)
 {
-    <h3>@dm.TenDm</h3>
+    <h3 class="category-title">@dm.TenDm</h3>
 
     <div class="row">
         @foreach (var sp in dm.SanPhams)
         {
-            <div class="col-md-3">
-                <div class="card mb-3">
+            <div class="col-md-3 col-sm-6">
+                <div class="card product-card mb-3">
                     <img src="~/img/@sp.Anh"
                          alt="@sp.TenSp"
-                         class="card-img-top"
-                         style="height:150px;object-fit:cover" />
+                         class="card-img-top product-img" />
                     <div class="card-body">
                         <h5 class="card-title">@sp.TenSp</h5>
                         <p class="card-text">@sp.MoTa</p>
-                        <p><strong>@sp.Gia.ToString("N0") đ</strong></p>
-
-
+                        <p class="product-price">@sp.Gia.ToString("N0") đ</p>
 
                         <a asp-controller="Home"
                            asp-action="ChiTietSanPham"
                            asp-route-id="@sp.MaSp"
-                           class="btn btn-sm btn-info">
+                           class="btn btn-sm btn-detail">
                             Chi tiết
                         </a>
 
-         
                         <a asp-controller="Cart"
                            asp-action="Add"
                            asp-route-id="@sp.MaSp"
-                           class="btn btn-sm btn-success">
+                           class="btn btn-sm btn-add">
                             Thêm vào giỏ
                         </a>
                     </div>

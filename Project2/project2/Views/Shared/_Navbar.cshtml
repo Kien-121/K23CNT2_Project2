@@ -1,0 +1,44 @@
+﻿<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-controller="Home" asp-action="Index">project2</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="DanhMucs" asp-action="Index">Danh mục</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="DonHangs" asp-action="Index">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="NhanViens" asp-action="Index">Nhân viên</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="KhachHangs" asp-action="Index">Khách hàng</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="GioHangs" asp-action="Index">Giỏ hàng</a>
+                </li>
+            </ul>
+
+            <!-- ✅ Phần Login/Logout -->
+            <div class="d-flex">
+                @if (User.Identity != null && User.Identity.IsAuthenticated)
+                {
+                    <span class="navbar-text text-white me-2">Xin chào @User.Identity.Name!</span>
+                    <a class="btn btn-outline-light" asp-controller="Account" asp-action="Logout">Đăng xuất</a>
+                }
+                else
+                {
+                    <a class="btn btn-outline-warning" asp-controller="Account" asp-action="Login">Đăng nhập</a>
+                }
+            </div>
+        </div>
+    </div>
+</nav>

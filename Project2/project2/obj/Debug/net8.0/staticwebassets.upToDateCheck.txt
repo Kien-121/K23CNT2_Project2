@@ -1,8 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\banner.jpg
 wwwroot\img\coca.jpg
 wwwroot\img\flan.jpg
 wwwroot\img\hamburger.jpg
+wwwroot\img\logo.png
 wwwroot\img\pizza.jpg
 wwwroot\img\trasua.jpg
 wwwroot\js\site.js

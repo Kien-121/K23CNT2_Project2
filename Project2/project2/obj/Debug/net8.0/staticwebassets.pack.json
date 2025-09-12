@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\img\\banner.jpg"
+    },
+    {
       "Id": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\coca.jpg",
       "PackagePath": "staticwebassets\\img\\coca.jpg"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\hamburger.jpg",
       "PackagePath": "staticwebassets\\img\\hamburger.jpg"
+    },
+    {
+      "Id": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
       "Id": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\pizza.jpg",
