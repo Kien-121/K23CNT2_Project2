@@ -1,21 +1,27 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using project2.Models;
+using Project2.Models; // namespace chứa QLBanDoAnContext
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-
-
+// Thêm DbContext (chỉnh lại chuỗi kết nối phù hợp trong appsettings.json)
 var connectionString = builder.Configuration.GetConnectionString("NvkDbConnect");
 builder.Services.AddDbContext<QlbanDoAnContext>(x => x.UseSqlServer(connectionString));
 
-builder.Services.AddAuthentication("MyCookieAuth").AddCookie("MyCookieAuth", options =>
+
+// Bật Session
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
 {
-    options.LoginPath = "/Account/Login";
-    options.LogoutPath = "/Account/Logout";
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // session sống 30 phút
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
 });
+
+// Để có thể inject HttpContext vào View (_Layout.cshtml)
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
@@ -23,7 +29,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -31,6 +36,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Bật Session
+app.UseSession();
 
 app.UseAuthorization();
 

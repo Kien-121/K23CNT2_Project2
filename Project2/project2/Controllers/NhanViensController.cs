@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using project2.Models;
+using Project2.Models;
 
-namespace project2.Controllers
+namespace Project2.Controllers
 {
     public class NhanViensController : Controller
     {
@@ -53,7 +53,7 @@ namespace project2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaNv,HoTen,Email,Sdt,VaiTro")] NhanVien nhanVien)
+        public async Task<IActionResult> Create([Bind("MaNv,HoTen,Email,Sdt,VaiTro,MatKhau")] NhanVien nhanVien)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace project2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaNv,HoTen,Email,Sdt,VaiTro")] NhanVien nhanVien)
+        public async Task<IActionResult> Edit(int id, [Bind("MaNv,HoTen,Email,Sdt,VaiTro,MatKhau")] NhanVien nhanVien)
         {
             if (id != nhanVien.MaNv)
             {

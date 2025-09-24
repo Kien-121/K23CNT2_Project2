@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using project2.Models;
+using Project2.Models;
 
-namespace project2.Controllers
+namespace Project2.Controllers
 {
     public class GioHangsController : Controller
     {
@@ -21,7 +21,7 @@ namespace project2.Controllers
         // GET: GioHangs
         public async Task<IActionResult> Index()
         {
-            var qlbanDoAnContext = _context.GioHangs.Include(g => g.MaKhNavigation);
+            var qlbanDoAnContext = _context.GioHangs.Include(g => g.MaKhNavigation).Include(g => g.MaSpNavigation);
             return View(await qlbanDoAnContext.ToListAsync());
         }
 
@@ -35,6 +35,7 @@ namespace project2.Controllers
 
             var gioHang = await _context.GioHangs
                 .Include(g => g.MaKhNavigation)
+                .Include(g => g.MaSpNavigation)
                 .FirstOrDefaultAsync(m => m.MaGh == id);
             if (gioHang == null)
             {
@@ -48,6 +49,7 @@ namespace project2.Controllers
         public IActionResult Create()
         {
             ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh");
+            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp");
             return View();
         }
 
@@ -56,7 +58,7 @@ namespace project2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaGh,MaKh")] GioHang gioHang)
+        public async Task<IActionResult> Create([Bind("MaGh,MaKh,MaSp,SoLuong")] GioHang gioHang)
         {
             if (ModelState.IsValid)
             {
@@ -65,6 +67,7 @@ namespace project2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
+            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
             return View(gioHang);
         }
 
@@ -82,6 +85,7 @@ namespace project2.Controllers
                 return NotFound();
             }
             ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
+            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
             return View(gioHang);
         }
 
@@ -90,7 +94,7 @@ namespace project2.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaGh,MaKh")] GioHang gioHang)
+        public async Task<IActionResult> Edit(int id, [Bind("MaGh,MaKh,MaSp,SoLuong")] GioHang gioHang)
         {
             if (id != gioHang.MaGh)
             {
@@ -118,6 +122,7 @@ namespace project2.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
+            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
             return View(gioHang);
         }
 
@@ -131,6 +136,7 @@ namespace project2.Controllers
 
             var gioHang = await _context.GioHangs
                 .Include(g => g.MaKhNavigation)
+                .Include(g => g.MaSpNavigation)
                 .FirstOrDefaultAsync(m => m.MaGh == id);
             if (gioHang == null)
             {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace project2.Models;
+namespace Project2.Models;
 
 public partial class SanPham
 {
@@ -19,7 +19,7 @@ public partial class SanPham
 
     public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
 
-    public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
+    public virtual ICollection<GioHang> GioHangs { get; set; } = new List<GioHang>();
 
     public virtual DanhMuc? MaDmNavigation { get; set; }
 }

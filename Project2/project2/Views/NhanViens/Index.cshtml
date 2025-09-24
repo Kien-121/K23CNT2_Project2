@@ -1,4 +1,4 @@
-﻿@model IEnumerable<project2.Models.NhanVien>
+﻿@model IEnumerable<Project2.Models.NhanVien>
 
 @{
     ViewData["Title"] = "Index";
@@ -24,6 +24,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.VaiTro)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MatKhau)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -41,6 +44,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.VaiTro)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatKhau)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MaNv">Edit</a> |

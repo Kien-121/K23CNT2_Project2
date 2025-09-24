@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace project2.Models;
+namespace Project2.Models;
 
 public partial class ChiTietDonHang
 {

@@ -1,4 +1,4 @@
-﻿@model project2.Models.NhanVien
+﻿@model Project2.Models.NhanVien
 
 @{
     ViewData["Title"] = "Create";
@@ -31,6 +31,11 @@
                 <label asp-for="VaiTro" class="control-label"></label>
                 <input asp-for="VaiTro" class="form-control" />
                 <span asp-validation-for="VaiTro" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MatKhau" class="control-label"></label>
+                <input asp-for="MatKhau" class="form-control" />
+                <span asp-validation-for="MatKhau" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

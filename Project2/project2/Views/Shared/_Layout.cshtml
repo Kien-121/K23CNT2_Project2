@@ -3,29 +3,64 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - project2</title>
+    <title>@ViewData["Title"] - FastFood</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Font Awesome (icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/project2.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FastFood.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <partial name="_Navbar" />
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
+    <div class="d-flex flex-column min-vh-100">
+        <!-- Header -->
+        <header>
+            <partial name="_NavBar" />
+        </header>
+
+        <!-- Nội dung chính -->
+        <main role="main" class="flex-fill">
+            <div class="container py-4">
+                @RenderBody()
+            </div>
         </main>
+
+        <!-- Footer -->
+        <footer class="mt-auto bg-dark text-white pt-4 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h5>🍔 FastFood</h5>
+                        <p>Đồ ăn nhanh giao tận nơi. Nhanh chóng - Ngon miệng - Tiện lợi.</p>
+                        <p><i class="fa fa-map-marker-alt"></i> 123 Đường ABC, Hà Nội</p>
+                        <p><i class="fa fa-phone"></i> 0123 456 789</p>
+                    </div>
+                    <div class="col-md-6 mb-3 text-md-end">
+                        <h5>Kết nối với chúng tôi</h5>
+                        <div class="social-icons">
+                            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                            <a href="#" class="text-white"><i class="fab fa-youtube fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-light" />
+                <div class="text-center small">
+                    <p class="mb-0">&copy; 2025 FastFood. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - project2 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <!-- JS: Bootstrap + jQuery (nếu cần) -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

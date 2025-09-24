@@ -1,10 +1,10 @@
-﻿// namespace DbContext của bạn
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
-using project2.Models;
+using Project2.Models;
 
-namespace project2.Controllers
+namespace FastFood.Controllers
 {
     public class HomeController : Controller
     {
@@ -39,9 +39,31 @@ namespace project2.Controllers
 
             return View(sp); // ✅ Truyền 1 sản phẩm vào view
         }
-        public IActionResult Privacy()
+
+        public IActionResult ThongTin()
         {
             return View();
+        }
+        public IActionResult TatCaSanPham()
+        {
+            var sanPhams = _db.SanPhams.ToList();
+            return View(sanPhams);
+        }
+
+        public IActionResult Search(string keyword)
+        {
+            if (string.IsNullOrEmpty(keyword))
+            {
+                return RedirectToAction("Index");
+            }
+
+            var sanPhams = _db.SanPhams
+                .Include(sp => sp.MaDmNavigation)
+                .Where(sp => sp.TenSp.Contains(keyword) || sp.MoTa.Contains(keyword))
+                .ToList();
+
+            ViewBag.Keyword = keyword;
+            return View(sanPhams);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -49,8 +71,5 @@ namespace project2.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-
-
     }
 }

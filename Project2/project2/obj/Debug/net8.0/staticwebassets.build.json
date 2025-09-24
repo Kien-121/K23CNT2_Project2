@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "/U8CwSA1i23ZY0puycaYHYTWgYuv5HZ+MiWB0JeB+GY=",
-  "Source": "project2",
-  "BasePath": "_content/project2",
+  "Hash": "9c1doquGt3mkPn3KEZ33EmZcVOb3Qqx9awMsU0WVDu8=",
+  "Source": "Project2",
+  "BasePath": "_content/Project2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "project2\\wwwroot",
-      "Source": "project2",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "Name": "Project2\\wwwroot",
+      "Source": "Project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\project2.styles.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project2.styles.css",
+      "SourceId": "Project2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "project2#[.{fingerprint}]?.styles.css",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "Project2#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "e8c29q2a43",
-      "Integrity": "bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=",
+      "Fingerprint": "pewoi9pyzf",
+      "Integrity": "7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\project2.styles.css"
+      "OriginalItemSpec": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project2.styles.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project2.bundle.scp.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project2.bundle.scp.css",
+      "SourceId": "Project2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "project2#[.{fingerprint}]!.bundle.scp.css",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "Project2#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,18 +52,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "e8c29q2a43",
-      "Integrity": "bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=",
+      "Fingerprint": "pewoi9pyzf",
+      "Integrity": "7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\css\\site.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\css\\site.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -73,18 +73,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "x10tyyvrtr",
-      "Integrity": "e4BdAehK9Ifw00Wph0X/NSP5CvX6D7PJH3QJ19SvLN4=",
+      "Fingerprint": "297qpidj6i",
+      "Integrity": "NngzaktPtRh6zAsb53baqInb0qm1ebNZjRVfOitLO4M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\favicon.ico",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\favicon.ico",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\banner.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\banner.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/banner#[.{fingerprint}]?.jpg",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/banner#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -119,15 +119,15 @@
       "Integrity": "MlImAXEovjUED4kFh0yLGtjmWXjdmS01cQjMZ4Dldo4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\banner.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\banner.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\coca.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\coca.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/coca#[.{fingerprint}]?.jpg",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/coca#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -136,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dhdlrn5wej",
-      "Integrity": "gT7FNi+azqlFR0sFVEqgfGXLAqmarChb9ShIIPuWrDU=",
+      "Fingerprint": "nmjftb6zqd",
+      "Integrity": "4YWdv8RSV6r818v2vljRv8QQ7DfTIu2RUCqickQCU6M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\coca.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\coca.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\flan.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\flan.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/flan#[.{fingerprint}]?.jpg",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/flan#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +157,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "geyfpoo7ky",
-      "Integrity": "6LQ0MdlI/tIo4KsgXin94AdBud2M/sUOzz5z0iTZfS4=",
+      "Fingerprint": "4ryl9q9j4j",
+      "Integrity": "MESBFL8SBfZKEUEW6VyyHh7DKgQJDZHUkV+XcFALj8c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\flan.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\flan.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\hamburger.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\hamburger.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/hamburger#[.{fingerprint}]?.jpg",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/hamburger#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,19 +178,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ynhj46cwpm",
-      "Integrity": "LvzxnUIWD2laqAeafTQLZNZ3NPvZnvC3WWpSb1UZzWc=",
+      "Fingerprint": "lcf94vrtbx",
+      "Integrity": "9QUqDgRkvDY+GhK+/UjmRfA6JbApsXGqMwTARhEQgto=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\hamburger.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\hamburger.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\logo.png",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\pizza.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/logo#[.{fingerprint}]?.png",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/pizza#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "g3hav5op9e",
-      "Integrity": "DOjlfdsK68wrW4xk4DBt4xDqQxxIKyqQvUP8dpgZw3E=",
+      "Fingerprint": "rqb46kbgp9",
+      "Integrity": "jaV3dQh8LY/PiWKu1mcnaubsUPy/k7NHEGejbNwVdps=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\logo.png"
+      "OriginalItemSpec": "wwwroot\\image\\pizza.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\pizza.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\trasua.jpg",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/pizza#[.{fingerprint}]?.jpg",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
+      "RelativePath": "image/trasua#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,39 +220,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bl2kuwg6ev",
-      "Integrity": "HyhUDCki7cFuo2zxzy5JqQzrjTNtmSrt/SjMqE7ZP6g=",
+      "Fingerprint": "dl4a92llfm",
+      "Integrity": "wbahQQwRr156RjROTxOrmL0yicsssAFP22NnXsQexbU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\pizza.jpg"
+      "OriginalItemSpec": "wwwroot\\image\\trasua.jpg"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\trasua.jpg",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\js\\site.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
-      "RelativePath": "img/trasua#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "br3pu85yxv",
-      "Integrity": "R60U4HwD9uosPPlKLBGobG7GM7dRW3tElnLFoNlyiY8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\trasua.jpg"
-    },
-    {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\js\\site.js",
-      "SourceId": "project2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -269,11 +248,11 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -290,11 +269,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -311,11 +290,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -332,11 +311,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -353,11 +332,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -374,11 +353,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -395,11 +374,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -416,11 +395,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -437,11 +416,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -458,11 +437,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -479,11 +458,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -500,11 +479,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -521,11 +500,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -542,11 +521,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -563,11 +542,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -584,11 +563,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -605,11 +584,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -626,11 +605,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -647,11 +626,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -668,11 +647,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -689,11 +668,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -710,11 +689,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -731,11 +710,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -752,11 +731,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -773,11 +752,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -794,11 +773,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -815,11 +794,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -836,11 +815,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -857,11 +836,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -878,11 +857,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -899,11 +878,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -920,11 +899,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -941,11 +920,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -962,11 +941,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -983,11 +962,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1004,11 +983,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1025,11 +1004,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1046,11 +1025,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1067,11 +1046,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1088,11 +1067,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1109,11 +1088,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1130,11 +1109,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1151,11 +1130,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1172,11 +1151,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1193,11 +1172,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1214,11 +1193,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1235,11 +1214,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1256,11 +1235,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1277,11 +1256,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1298,11 +1277,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1319,11 +1298,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1340,11 +1319,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1361,11 +1340,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1382,11 +1361,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1403,11 +1382,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1424,11 +1403,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1445,11 +1424,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "project2",
+      "Identity": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Project2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\",
-      "BasePath": "_content/project2",
+      "ContentRoot": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\",
+      "BasePath": "_content/Project2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1468,8 +1447,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\css\\site.css",
+      "Route": "css/site.297qpidj6i.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1478,7 +1457,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1826"
+          "Value": "2669"
         },
         {
           "Name": "Content-Type",
@@ -1486,48 +1465,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"e4BdAehK9Ifw00Wph0X/NSP5CvX6D7PJH3QJ19SvLN4=\""
+          "Value": "\"NngzaktPtRh6zAsb53baqInb0qm1ebNZjRVfOitLO4M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:36:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-e4BdAehK9Ifw00Wph0X/NSP5CvX6D7PJH3QJ19SvLN4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.x10tyyvrtr.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1826"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"e4BdAehK9Ifw00Wph0X/NSP5CvX6D7PJH3QJ19SvLN4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:36:08 GMT"
+          "Value": "Wed, 24 Sep 2025 12:20:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1537,7 +1479,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x10tyyvrtr"
+          "Value": "297qpidj6i"
         },
         {
           "Name": "label",
@@ -1545,13 +1487,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-e4BdAehK9Ifw00Wph0X/NSP5CvX6D7PJH3QJ19SvLN4="
+          "Value": "sha256-NngzaktPtRh6zAsb53baqInb0qm1ebNZjRVfOitLO4M="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2669"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NngzaktPtRh6zAsb53baqInb0qm1ebNZjRVfOitLO4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Sep 2025 12:20:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NngzaktPtRh6zAsb53baqInb0qm1ebNZjRVfOitLO4M="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1572,7 +1551,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1596,7 +1575,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1617,7 +1596,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1632,8 +1611,8 @@
       ]
     },
     {
-      "Route": "img/banner.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\banner.jpg",
+      "Route": "image/banner.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1654,7 +1633,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:23:20 GMT"
+          "Value": "Fri, 12 Sep 2025 14:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1669,8 +1648,8 @@
       ]
     },
     {
-      "Route": "img/banner.ysyoscw52r.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\banner.jpg",
+      "Route": "image/banner.ysyoscw52r.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\banner.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1691,7 +1670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:23:20 GMT"
+          "Value": "Fri, 12 Sep 2025 14:40:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1705,7 +1684,7 @@
         },
         {
           "Name": "label",
-          "Value": "img/banner.jpg"
+          "Value": "image/banner.jpg"
         },
         {
           "Name": "integrity",
@@ -1714,8 +1693,8 @@
       ]
     },
     {
-      "Route": "img/coca.dhdlrn5wej.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\coca.jpg",
+      "Route": "image/coca.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\coca.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1724,7 +1703,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4519"
+          "Value": "7956"
         },
         {
           "Name": "Content-Type",
@@ -1732,56 +1711,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gT7FNi+azqlFR0sFVEqgfGXLAqmarChb9ShIIPuWrDU=\""
+          "Value": "\"4YWdv8RSV6r818v2vljRv8QQ7DfTIu2RUCqickQCU6M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:02:50 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dhdlrn5wej"
-        },
-        {
-          "Name": "label",
-          "Value": "img/coca.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-gT7FNi+azqlFR0sFVEqgfGXLAqmarChb9ShIIPuWrDU="
-        }
-      ]
-    },
-    {
-      "Route": "img/coca.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\coca.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4519"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gT7FNi+azqlFR0sFVEqgfGXLAqmarChb9ShIIPuWrDU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:02:50 GMT"
+          "Value": "Fri, 12 Sep 2025 03:10:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1791,13 +1725,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gT7FNi+azqlFR0sFVEqgfGXLAqmarChb9ShIIPuWrDU="
+          "Value": "sha256-4YWdv8RSV6r818v2vljRv8QQ7DfTIu2RUCqickQCU6M="
         }
       ]
     },
     {
-      "Route": "img/flan.geyfpoo7ky.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\flan.jpg",
+      "Route": "image/coca.nmjftb6zqd.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\coca.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1806,7 +1740,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6948"
+          "Value": "7956"
         },
         {
           "Name": "Content-Type",
@@ -1814,11 +1748,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6LQ0MdlI/tIo4KsgXin94AdBud2M/sUOzz5z0iTZfS4=\""
+          "Value": "\"4YWdv8RSV6r818v2vljRv8QQ7DfTIu2RUCqickQCU6M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:05:22 GMT"
+          "Value": "Fri, 12 Sep 2025 03:10:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1828,21 +1762,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "geyfpoo7ky"
+          "Value": "nmjftb6zqd"
         },
         {
           "Name": "label",
-          "Value": "img/flan.jpg"
+          "Value": "image/coca.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-6LQ0MdlI/tIo4KsgXin94AdBud2M/sUOzz5z0iTZfS4="
+          "Value": "sha256-4YWdv8RSV6r818v2vljRv8QQ7DfTIu2RUCqickQCU6M="
         }
       ]
     },
     {
-      "Route": "img/flan.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\flan.jpg",
+      "Route": "image/flan.4ryl9q9j4j.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\flan.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1851,7 +1785,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6948"
+          "Value": "5176"
         },
         {
           "Name": "Content-Type",
@@ -1859,85 +1793,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6LQ0MdlI/tIo4KsgXin94AdBud2M/sUOzz5z0iTZfS4=\""
+          "Value": "\"MESBFL8SBfZKEUEW6VyyHh7DKgQJDZHUkV+XcFALj8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:05:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6LQ0MdlI/tIo4KsgXin94AdBud2M/sUOzz5z0iTZfS4="
-        }
-      ]
-    },
-    {
-      "Route": "img/hamburger.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\hamburger.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9420"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LvzxnUIWD2laqAeafTQLZNZ3NPvZnvC3WWpSb1UZzWc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:02:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-LvzxnUIWD2laqAeafTQLZNZ3NPvZnvC3WWpSb1UZzWc="
-        }
-      ]
-    },
-    {
-      "Route": "img/hamburger.ynhj46cwpm.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\hamburger.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9420"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"LvzxnUIWD2laqAeafTQLZNZ3NPvZnvC3WWpSb1UZzWc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:02:38 GMT"
+          "Value": "Fri, 12 Sep 2025 03:10:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1947,21 +1807,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ynhj46cwpm"
+          "Value": "4ryl9q9j4j"
         },
         {
           "Name": "label",
-          "Value": "img/hamburger.jpg"
+          "Value": "image/flan.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LvzxnUIWD2laqAeafTQLZNZ3NPvZnvC3WWpSb1UZzWc="
+          "Value": "sha256-MESBFL8SBfZKEUEW6VyyHh7DKgQJDZHUkV+XcFALj8c="
         }
       ]
     },
     {
-      "Route": "img/logo.g3hav5op9e.png",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\logo.png",
+      "Route": "image/flan.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\flan.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1970,64 +1830,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4434"
+          "Value": "5176"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"DOjlfdsK68wrW4xk4DBt4xDqQxxIKyqQvUP8dpgZw3E=\""
+          "Value": "\"MESBFL8SBfZKEUEW6VyyHh7DKgQJDZHUkV+XcFALj8c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:29:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g3hav5op9e"
-        },
-        {
-          "Name": "label",
-          "Value": "img/logo.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DOjlfdsK68wrW4xk4DBt4xDqQxxIKyqQvUP8dpgZw3E="
-        }
-      ]
-    },
-    {
-      "Route": "img/logo.png",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\logo.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DOjlfdsK68wrW4xk4DBt4xDqQxxIKyqQvUP8dpgZw3E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 13:29:44 GMT"
+          "Value": "Fri, 12 Sep 2025 03:10:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2037,13 +1852,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DOjlfdsK68wrW4xk4DBt4xDqQxxIKyqQvUP8dpgZw3E="
+          "Value": "sha256-MESBFL8SBfZKEUEW6VyyHh7DKgQJDZHUkV+XcFALj8c="
         }
       ]
     },
     {
-      "Route": "img/pizza.bl2kuwg6ev.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\pizza.jpg",
+      "Route": "image/hamburger.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\hamburger.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2052,7 +1867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "16390"
+          "Value": "5275"
         },
         {
           "Name": "Content-Type",
@@ -2060,56 +1875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HyhUDCki7cFuo2zxzy5JqQzrjTNtmSrt/SjMqE7ZP6g=\""
+          "Value": "\"9QUqDgRkvDY+GhK+/UjmRfA6JbApsXGqMwTARhEQgto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:03:23 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bl2kuwg6ev"
-        },
-        {
-          "Name": "label",
-          "Value": "img/pizza.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HyhUDCki7cFuo2zxzy5JqQzrjTNtmSrt/SjMqE7ZP6g="
-        }
-      ]
-    },
-    {
-      "Route": "img/pizza.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\pizza.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "16390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HyhUDCki7cFuo2zxzy5JqQzrjTNtmSrt/SjMqE7ZP6g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:03:23 GMT"
+          "Value": "Fri, 12 Sep 2025 03:09:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2119,13 +1889,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HyhUDCki7cFuo2zxzy5JqQzrjTNtmSrt/SjMqE7ZP6g="
+          "Value": "sha256-9QUqDgRkvDY+GhK+/UjmRfA6JbApsXGqMwTARhEQgto="
         }
       ]
     },
     {
-      "Route": "img/trasua.br3pu85yxv.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\trasua.jpg",
+      "Route": "image/hamburger.lcf94vrtbx.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\hamburger.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2134,7 +1904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5853"
+          "Value": "5275"
         },
         {
           "Name": "Content-Type",
@@ -2142,11 +1912,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R60U4HwD9uosPPlKLBGobG7GM7dRW3tElnLFoNlyiY8=\""
+          "Value": "\"9QUqDgRkvDY+GhK+/UjmRfA6JbApsXGqMwTARhEQgto=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:04:56 GMT"
+          "Value": "Fri, 12 Sep 2025 03:09:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2156,21 +1926,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "br3pu85yxv"
+          "Value": "lcf94vrtbx"
         },
         {
           "Name": "label",
-          "Value": "img/trasua.jpg"
+          "Value": "image/hamburger.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-R60U4HwD9uosPPlKLBGobG7GM7dRW3tElnLFoNlyiY8="
+          "Value": "sha256-9QUqDgRkvDY+GhK+/UjmRfA6JbApsXGqMwTARhEQgto="
         }
       ]
     },
     {
-      "Route": "img/trasua.jpg",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\img\\trasua.jpg",
+      "Route": "image/pizza.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\pizza.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2179,7 +1949,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5853"
+          "Value": "9829"
         },
         {
           "Name": "Content-Type",
@@ -2187,11 +1957,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R60U4HwD9uosPPlKLBGobG7GM7dRW3tElnLFoNlyiY8=\""
+          "Value": "\"jaV3dQh8LY/PiWKu1mcnaubsUPy/k7NHEGejbNwVdps=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 12 Sep 2025 04:04:56 GMT"
+          "Value": "Fri, 12 Sep 2025 03:09:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2201,13 +1971,140 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R60U4HwD9uosPPlKLBGobG7GM7dRW3tElnLFoNlyiY8="
+          "Value": "sha256-jaV3dQh8LY/PiWKu1mcnaubsUPy/k7NHEGejbNwVdps="
+        }
+      ]
+    },
+    {
+      "Route": "image/pizza.rqb46kbgp9.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\pizza.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jaV3dQh8LY/PiWKu1mcnaubsUPy/k7NHEGejbNwVdps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 03:09:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rqb46kbgp9"
+        },
+        {
+          "Name": "label",
+          "Value": "image/pizza.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jaV3dQh8LY/PiWKu1mcnaubsUPy/k7NHEGejbNwVdps="
+        }
+      ]
+    },
+    {
+      "Route": "image/trasua.dl4a92llfm.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\trasua.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbahQQwRr156RjROTxOrmL0yicsssAFP22NnXsQexbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 04:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dl4a92llfm"
+        },
+        {
+          "Name": "label",
+          "Value": "image/trasua.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbahQQwRr156RjROTxOrmL0yicsssAFP22NnXsQexbU="
+        }
+      ]
+    },
+    {
+      "Route": "image/trasua.jpg",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\image\\trasua.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5383"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wbahQQwRr156RjROTxOrmL0yicsssAFP22NnXsQexbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 04:33:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wbahQQwRr156RjROTxOrmL0yicsssAFP22NnXsQexbU="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2228,7 +2125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2244,7 +2141,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2265,7 +2162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2289,7 +2186,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2310,7 +2207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2326,7 +2223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2347,7 +2244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2371,7 +2268,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2392,7 +2289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2408,7 +2305,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2429,7 +2326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2453,7 +2350,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2474,7 +2371,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2490,7 +2387,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2511,7 +2408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2535,7 +2432,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2556,7 +2453,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,7 +2469,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2593,7 +2490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2617,7 +2514,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2638,7 +2535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,7 +2551,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2675,7 +2572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2699,7 +2596,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,7 +2617,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2736,7 +2633,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2757,7 +2654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2781,7 +2678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2802,7 +2699,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2818,7 +2715,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2839,7 +2736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2863,7 +2760,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2884,7 +2781,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2900,7 +2797,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2921,7 +2818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2945,7 +2842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2966,7 +2863,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2990,7 +2887,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3011,7 +2908,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3027,7 +2924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3048,7 +2945,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3064,7 +2961,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3085,7 +2982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3109,7 +3006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3130,7 +3027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3146,7 +3043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3167,7 +3064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3191,7 +3088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3212,7 +3109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3228,7 +3125,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3249,7 +3146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3273,7 +3170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3294,7 +3191,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3310,7 +3207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3331,7 +3228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3355,7 +3252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3376,7 +3273,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,7 +3289,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3413,7 +3310,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3429,7 +3326,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3450,7 +3347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3466,7 +3363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3487,7 +3384,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3511,7 +3408,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3532,7 +3429,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3556,7 +3453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3577,7 +3474,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3601,7 +3498,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3622,7 +3519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3646,7 +3543,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3667,7 +3564,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3683,7 +3580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3704,7 +3601,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3728,7 +3625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3749,7 +3646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3765,7 +3662,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3786,7 +3683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3802,7 +3699,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3823,7 +3720,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3839,7 +3736,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3860,7 +3757,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3884,7 +3781,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3905,7 +3802,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3929,7 +3826,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3950,7 +3847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3974,7 +3871,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3995,7 +3892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4011,7 +3908,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4032,7 +3929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4056,7 +3953,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4077,7 +3974,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4093,7 +3990,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4114,7 +4011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4130,7 +4027,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4151,7 +4048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4167,7 +4064,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4188,7 +4085,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4212,7 +4109,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4233,7 +4130,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4257,7 +4154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4278,7 +4175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4294,7 +4191,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4315,7 +4212,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4339,7 +4236,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4360,7 +4257,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4376,7 +4273,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4397,7 +4294,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4421,7 +4318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4442,7 +4339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4458,7 +4355,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4479,7 +4376,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4495,7 +4392,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4516,7 +4413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4540,7 +4437,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4561,7 +4458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4585,7 +4482,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4606,7 +4503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4622,7 +4519,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4643,7 +4540,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4667,7 +4564,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4688,7 +4585,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4704,7 +4601,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4725,7 +4622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4741,7 +4638,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4762,7 +4659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4786,7 +4683,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4807,7 +4704,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4823,7 +4720,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4844,7 +4741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4868,7 +4765,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4889,7 +4786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4913,7 +4810,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4934,7 +4831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4950,7 +4847,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4971,7 +4868,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4995,7 +4892,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5016,7 +4913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5032,7 +4929,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5053,7 +4950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5077,7 +4974,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5098,7 +4995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5122,7 +5019,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5143,7 +5040,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5159,7 +5056,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5180,7 +5077,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5204,7 +5101,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5225,7 +5122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5241,7 +5138,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5262,7 +5159,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5278,7 +5175,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5299,7 +5196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5323,7 +5220,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5344,7 +5241,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5360,7 +5257,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5381,7 +5278,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5405,7 +5302,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5426,7 +5323,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5442,7 +5339,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5463,7 +5360,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5479,7 +5376,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5500,7 +5397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5524,7 +5421,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5545,7 +5442,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5569,7 +5466,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5590,7 +5487,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5606,7 +5503,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5627,7 +5524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5651,7 +5548,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5672,7 +5569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5688,7 +5585,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5709,7 +5606,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5725,7 +5622,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5746,7 +5643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5762,7 +5659,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5783,7 +5680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5807,7 +5704,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5828,7 +5725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5852,7 +5749,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5873,7 +5770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5897,7 +5794,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5918,7 +5815,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5934,7 +5831,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5955,7 +5852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5979,7 +5876,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6000,7 +5897,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6024,7 +5921,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6045,7 +5942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6061,7 +5958,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6082,7 +5979,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6106,7 +6003,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6127,7 +6024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6151,7 +6048,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6172,7 +6069,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6188,7 +6085,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6209,7 +6106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6225,7 +6122,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6246,7 +6143,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6270,7 +6167,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6291,7 +6188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6307,7 +6204,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6328,7 +6225,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6352,7 +6249,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6373,7 +6270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6389,7 +6286,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6410,7 +6307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6434,7 +6331,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6455,7 +6352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6471,7 +6368,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6492,7 +6389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6508,7 +6405,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6529,7 +6426,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6553,7 +6450,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6574,7 +6471,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6590,7 +6487,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6611,7 +6508,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6635,7 +6532,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6656,7 +6553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6672,7 +6569,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6693,7 +6590,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6717,7 +6614,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6738,7 +6635,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6762,7 +6659,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6783,7 +6680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6799,7 +6696,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6820,7 +6717,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6844,7 +6741,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6865,7 +6762,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6881,7 +6778,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6902,7 +6799,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6926,7 +6823,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6947,7 +6844,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:30:25 GMT"
+          "Value": "Wed, 24 Sep 2025 12:13:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6962,8 +6859,8 @@
       ]
     },
     {
-      "Route": "project2.bundle.scp.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project2.bundle.scp.css",
+      "Route": "Project2.bundle.scp.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6980,11 +6877,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=\""
+          "Value": "\"7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:35:17 GMT"
+          "Value": "Wed, 24 Sep 2025 12:17:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6994,13 +6891,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg="
+          "Value": "sha256-7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc="
         }
       ]
     },
     {
-      "Route": "project2.e8c29q2a43.bundle.scp.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\project2.bundle.scp.css",
+      "Route": "Project2.pewoi9pyzf.bundle.scp.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7017,11 +6914,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=\""
+          "Value": "\"7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:35:17 GMT"
+          "Value": "Wed, 24 Sep 2025 12:17:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7031,21 +6928,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8c29q2a43"
+          "Value": "pewoi9pyzf"
         },
         {
           "Name": "label",
-          "Value": "project2.bundle.scp.css"
+          "Value": "Project2.bundle.scp.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg="
+          "Value": "sha256-7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc="
         }
       ]
     },
     {
-      "Route": "project2.e8c29q2a43.styles.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\project2.styles.css",
+      "Route": "Project2.pewoi9pyzf.styles.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7062,11 +6959,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=\""
+          "Value": "\"7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:35:17 GMT"
+          "Value": "Wed, 24 Sep 2025 12:17:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7076,21 +6973,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e8c29q2a43"
+          "Value": "pewoi9pyzf"
         },
         {
           "Name": "label",
-          "Value": "project2.styles.css"
+          "Value": "Project2.styles.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg="
+          "Value": "sha256-7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc="
         }
       ]
     },
     {
-      "Route": "project2.styles.css",
-      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\project2.styles.css",
+      "Route": "Project2.styles.css",
+      "AssetFile": "C:\\K23CNT2_NVK_PRJ2\\Project2\\Project2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7107,11 +7004,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg=\""
+          "Value": "\"7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 10 Sep 2025 04:35:17 GMT"
+          "Value": "Wed, 24 Sep 2025 12:17:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7121,7 +7018,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bpvJnoeC/Hp0KtZmOpMeNx3JAVsouFyIYL03Ss53GPg="
+          "Value": "sha256-7x+1NardM7TXOcHXen3FeA3GD3BWbJR6aikRov/Pvmc="
         }
       ]
     }

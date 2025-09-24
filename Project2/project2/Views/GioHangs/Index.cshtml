@@ -1,4 +1,4 @@
-﻿@model IEnumerable<project2.Models.GioHang>
+﻿@model IEnumerable<Project2.Models.GioHang>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,7 +13,13 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.SoLuong)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.MaKhNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaSpNavigation)
             </th>
             <th></th>
         </tr>
@@ -22,7 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                @Html.DisplayFor(modelItem => item.SoLuong)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.MaKhNavigation.MaKh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSpNavigation.MaSp)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.MaGh">Edit</a> |

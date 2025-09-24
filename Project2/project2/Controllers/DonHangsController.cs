@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using project2.Models;
+using Project2.Models;
 
-namespace project2.Controllers
+namespace Project2.Controllers
 {
     public class DonHangsController : Controller
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace project2.Models;
+namespace Project2.Models;
 
 public partial class NhanVien
 {
@@ -14,4 +14,6 @@ public partial class NhanVien
     public string? Sdt { get; set; }
 
     public string? VaiTro { get; set; }
+
+    public string MatKhau { get; set; } = null!;
 }
