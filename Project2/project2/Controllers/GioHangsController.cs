@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Project2.Models;
 
-namespace Project2.Controllers
+namespace FastFood.Controllers
 {
     public class GioHangsController : Controller
     {
@@ -18,152 +14,201 @@ namespace Project2.Controllers
             _context = context;
         }
 
-        // GET: GioHangs
+        // ✅ Xem giỏ hàng
         public async Task<IActionResult> Index()
         {
-            var qlbanDoAnContext = _context.GioHangs.Include(g => g.MaKhNavigation).Include(g => g.MaSpNavigation);
-            return View(await qlbanDoAnContext.ToListAsync());
-        }
-
-        // GET: GioHangs/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
             {
-                return NotFound();
+                return RedirectToAction("Login", "Auth");
             }
 
             var gioHang = await _context.GioHangs
-                .Include(g => g.MaKhNavigation)
                 .Include(g => g.MaSpNavigation)
-                .FirstOrDefaultAsync(m => m.MaGh == id);
-            if (gioHang == null)
-            {
-                return NotFound();
-            }
+                .Where(g => g.MaKh == customerId)
+                .ToListAsync();
 
             return View(gioHang);
         }
 
-        // GET: GioHangs/Create
-        public IActionResult Create()
+        // ✅ Thêm sản phẩm vào giỏ
+        public async Task<IActionResult> ThemVaoGio(int id)
         {
-            ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh");
-            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp");
-            return View();
-        }
-
-        // POST: GioHangs/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaGh,MaKh,MaSp,SoLuong")] GioHang gioHang)
-        {
-            if (ModelState.IsValid)
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
             {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var sp = await _context.SanPhams.FindAsync(id);
+            if (sp == null)
+            {
+                return NotFound();
+            }
+
+            var existingItem = await _context.GioHangs
+                .FirstOrDefaultAsync(g => g.MaKh == customerId && g.MaSp == id);
+
+            if (existingItem != null)
+            {
+                existingItem.SoLuong += 1;
+                _context.Update(existingItem);
+            }
+            else
+            {
+                var gioHang = new GioHang
+                {
+                    MaKh = customerId.Value,
+                    MaSp = id,
+                    SoLuong = 1
+                };
                 _context.Add(gioHang);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
-            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
-            return View(gioHang);
-        }
-
-        // GET: GioHangs/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var gioHang = await _context.GioHangs.FindAsync(id);
-            if (gioHang == null)
-            {
-                return NotFound();
-            }
-            ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
-            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
-            return View(gioHang);
-        }
-
-        // POST: GioHangs/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaGh,MaKh,MaSp,SoLuong")] GioHang gioHang)
-        {
-            if (id != gioHang.MaGh)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(gioHang);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!GioHangExists(gioHang.MaGh))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["MaKh"] = new SelectList(_context.KhachHangs, "MaKh", "MaKh", gioHang.MaKh);
-            ViewData["MaSp"] = new SelectList(_context.SanPhams, "MaSp", "MaSp", gioHang.MaSp);
-            return View(gioHang);
-        }
-
-        // GET: GioHangs/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var gioHang = await _context.GioHangs
-                .Include(g => g.MaKhNavigation)
-                .Include(g => g.MaSpNavigation)
-                .FirstOrDefaultAsync(m => m.MaGh == id);
-            if (gioHang == null)
-            {
-                return NotFound();
-            }
-
-            return View(gioHang);
-        }
-
-        // POST: GioHangs/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var gioHang = await _context.GioHangs.FindAsync(id);
-            if (gioHang != null)
-            {
-                _context.GioHangs.Remove(gioHang);
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
 
-        private bool GioHangExists(int id)
+        // ✅ Cập nhật số lượng (POST)
+        [HttpPost]
+        public IActionResult CapNhatSoLuong(int id, string actionType)
         {
-            return _context.GioHangs.Any(e => e.MaGh == id);
+            var gioHang = _context.GioHangs.FirstOrDefault(g => g.MaGh == id);
+            if (gioHang != null)
+            {
+                if (actionType == "increase")
+                    gioHang.SoLuong += 1;
+                else if (actionType == "decrease" && gioHang.SoLuong > 1)
+                    gioHang.SoLuong -= 1;
+
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        // ✅ Xóa sản phẩm khỏi giỏ
+        public async Task<IActionResult> XoaKhoiGio(int id)
+        {
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var gioHang = await _context.GioHangs
+                .FirstOrDefaultAsync(g => g.MaGh == id && g.MaKh == customerId);
+
+            if (gioHang != null)
+            {
+                _context.GioHangs.Remove(gioHang);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        // ✅ Hiển thị form chọn phương thức thanh toán (GET)
+        [HttpGet]
+        public IActionResult ThanhToan()
+        {
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
+                return RedirectToAction("Login", "Auth");
+
+            return View();
+        }
+
+        // ✅ Xử lý thanh toán (POST)
+        [HttpPost]
+        public async Task<IActionResult> ThanhToan(string phuongThucThanhToan)
+        {
+            var customerId = HttpContext.Session.GetInt32("CustomerId");
+            if (customerId == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
+
+            var gioHangItems = await _context.GioHangs
+                .Include(g => g.MaSpNavigation)
+                .Where(g => g.MaKh == customerId)
+                .ToListAsync();
+
+            if (gioHangItems == null || !gioHangItems.Any())
+            {
+                TempData["Message"] = "Giỏ hàng trống!";
+                return RedirectToAction("Index");
+            }
+
+            // Danh sách phương thức thanh toán hợp lệ (phải đúng với CHECK constraint trong database)
+            var validPaymentMethods = new List<string> { "GiaDienTu", "TienMat", "TheTinDung" };
+
+            if (string.IsNullOrEmpty(phuongThucThanhToan) || !validPaymentMethods.Contains(phuongThucThanhToan))
+            {
+                ModelState.AddModelError("", "Phương thức thanh toán không hợp lệ. Vui lòng chọn phương thức hợp lệ.");
+                return View();
+            }
+
+            // Tính tổng tiền
+            decimal tongTien = gioHangItems.Sum(item =>
+                (item.SoLuong ?? 0) * item.MaSpNavigation.Gia);
+
+            // Tạo đơn hàng
+            var donHang = new DonHang
+            {
+                MaKh = customerId.Value,
+                NgayDat = DateTime.Now,
+                TrangThai = "Chờ xác nhận",
+                TongTien = tongTien,
+                PhuongThucTt = phuongThucThanhToan
+            };
+
+            _context.DonHangs.Add(donHang);
+            await _context.SaveChangesAsync(); // để lấy mã đơn hàng
+
+            // Tạo chi tiết đơn hàng
+            foreach (var item in gioHangItems)
+            {
+                var ctdh = new ChiTietDonHang
+                {
+                    MaDh = donHang.MaDh,
+                    MaSp = item.MaSp.Value,
+                    SoLuong = item.SoLuong,
+                    DonGia = item.MaSpNavigation.Gia
+                };
+                _context.ChiTietDonHangs.Add(ctdh);
+            }
+
+            // Xóa giỏ hàng sau khi thanh toán
+            _context.GioHangs.RemoveRange(gioHangItems);
+
+            await _context.SaveChangesAsync();
+
+            TempData["Message"] = "Đặt hàng thành công!";
+            TempData["TongTien"] = tongTien.ToString("F2");
+            TempData["PhuongThucThanhToan"] = phuongThucThanhToan;
+
+            return RedirectToAction("XacNhanDonHang");
+        }
+
+        // ✅ Xác nhận đơn hàng
+        public IActionResult XacNhanDonHang()
+        {
+            ViewBag.Message = TempData["Message"] as string;
+
+            var tongTienStr = TempData["TongTien"] as string;
+            if (decimal.TryParse(tongTienStr, out var tongTien))
+            {
+                ViewBag.TongTien = tongTien;
+            }
+            else
+            {
+                ViewBag.TongTien = null;
+            }
+
+            ViewBag.PhuongThucThanhToan = TempData["PhuongThucThanhToan"] as string;
+
+            return View();
         }
     }
 }

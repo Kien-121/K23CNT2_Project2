@@ -1,59 +1,56 @@
 ﻿@model IEnumerable<Project2.Models.NhanVien>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách nhân viên";
 }
 
-<h1>Index</h1>
+<h1>👨‍💼 Danh sách nhân viên</h1>
+<hr />
+
+<!-- 🔙 Nút quay lại Dashboard -->
+<a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-secondary mb-3">
+    ⬅ Quay lại Dashboard
+</a>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">+ Thêm nhân viên</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.HoTen)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Sdt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.VaiTro)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MatKhau)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.HoTen)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sdt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.VaiTro)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MatKhau)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MaNv">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaNv">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaNv">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-hover shadow-sm">
+        <thead class="table-dark">
+            <tr>
+                <th>Họ tên</th>
+                <th>Email</th>
+                <th>Số điện thoại</th>
+                <th>Vai trò</th>
+                <th>Mật khẩu</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.HoTen</td>
+                    <td>@item.Email</td>
+                    <td>@item.Sdt</td>
+                    <td>@item.VaiTro</td>
+                    <td>
+                        <div class="input-group input-group-sm">
+                            <input type="password" value="@item.MatKhau" class="form-control" id="passwordInput-@item.MaNv" readonly />
+                            <button type="button" class="btn btn-outline-secondary togglePasswordBtn" data-target="passwordInput-@item.MaNv">
+                                👁 Xem
+                            </button>
+                        </div>
+                    </td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.MaNv" class="btn btn-sm btn-warning">✏ Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.MaNv" class="btn btn-sm btn-info text-white">🔍 Xem</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaNv" class="btn btn-sm btn-danger">🗑 Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

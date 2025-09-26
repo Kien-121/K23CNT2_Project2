@@ -1,47 +1,70 @@
 ﻿@model IEnumerable<Project2.Models.GioHang>
 
-@{
-    ViewData["Title"] = "Index";
-}
+<h2>🛒 Giỏ hàng của bạn</h2>
+<hr />
 
-<h1>Index</h1>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.SoLuong)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaKhNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaSpNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.SoLuong)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaKhNavigation.MaKh)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaSpNavigation.MaSp)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MaGh">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaGh">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaGh">Delete</a>
-            </td>
-        </tr>
+@if (!Model.Any())
+{
+    <p class="text-muted">Giỏ hàng của bạn đang trống.</p>
 }
-    </tbody>
-</table>
+else
+{
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Sản phẩm</th>
+                <th class="text-end">Giá</th>
+                <th class="text-center">Số lượng</th>
+                <th class="text-end">Tổng</th>
+                <th class="text-center">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaSpNavigation.TenSp</td>
+                    <td class="text-end">@($"{item.MaSpNavigation.Gia:N0} đ")</td>
+
+                    <!-- Số lượng có tăng/giảm -->
+                    <td class="text-center">
+                        <form asp-action="CapNhatSoLuong" method="post" class="d-inline-flex align-items-center">
+                            <input type="hidden" name="id" value="@item.MaGh" />
+                            <div class="input-group input-group-sm" style="max-width: 120px;">
+                                <button type="submit" name="actionType" value="decrease" class="btn btn-outline-secondary btn-sm">-</button>
+                                <input type="text" name="soLuong" class="form-control text-center" value="@item.SoLuong" readonly />
+                                <button type="submit" name="actionType" value="increase" class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+                        </form>
+                    </td>
+
+                    <td class="text-end">@($"{item.SoLuong * item.MaSpNavigation.Gia:N0} đ")</td>
+                    <td class="text-center">
+                        <a asp-action="XoaKhoiGio" asp-route-id="@item.MaGh" class="btn btn-sm btn-danger">
+                            Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-end"><strong>Tổng cộng:</strong></td>
+                <td class="text-end text-danger">
+                    <strong>
+                        @($"{Model.Sum(x => x.SoLuong * x.MaSpNavigation.Gia):N0} đ")
+                    </strong>
+                </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <div class="text-end mt-3">
+        <a asp-action="ThanhToan" class="btn btn-success btn-lg">
+            Thanh toán <i class="fa fa-credit-card"></i>
+        </a>
+    </div>
+
+
+}

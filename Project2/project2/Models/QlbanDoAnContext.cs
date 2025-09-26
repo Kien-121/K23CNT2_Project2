@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Project2.Models;
 
 namespace Project2.Models;
 
@@ -16,17 +17,11 @@ public partial class QlbanDoAnContext : DbContext
     }
 
     public virtual DbSet<ChiTietDonHang> ChiTietDonHangs { get; set; }
-
     public virtual DbSet<DanhMuc> DanhMucs { get; set; }
-
     public virtual DbSet<DonHang> DonHangs { get; set; }
-
     public virtual DbSet<GioHang> GioHangs { get; set; }
-
     public virtual DbSet<KhachHang> KhachHangs { get; set; }
-
     public virtual DbSet<NhanVien> NhanViens { get; set; }
-
     public virtual DbSet<SanPham> SanPhams { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -37,7 +32,7 @@ public partial class QlbanDoAnContext : DbContext
     {
         modelBuilder.Entity<ChiTietDonHang>(entity =>
         {
-            entity.HasKey(e => new { e.MaDh, e.MaSp }).HasName("PK__ChiTietD__F557D6E0978D3C3C");
+            entity.HasKey(e => new { e.MaDh, e.MaSp }).HasName("PK__ChiTietD__F557D6E07E338A60");
 
             entity.ToTable("ChiTietDonHang");
 
@@ -47,18 +42,18 @@ public partial class QlbanDoAnContext : DbContext
 
             entity.HasOne(d => d.MaDhNavigation).WithMany(p => p.ChiTietDonHangs)
                 .HasForeignKey(d => d.MaDh)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietDon__MaDH__4AB81AF0");
+                .OnDelete(DeleteBehavior.Cascade)   // <-- Đã chỉnh sửa để Cascade Delete
+                .HasConstraintName("FK__ChiTietDon__MaDH__5CD6CB2B");
 
             entity.HasOne(d => d.MaSpNavigation).WithMany(p => p.ChiTietDonHangs)
                 .HasForeignKey(d => d.MaSp)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietDon__MaSP__4BAC3F29");
+                .HasConstraintName("FK__ChiTietDon__MaSP__5DCAEF64");
         });
 
         modelBuilder.Entity<DanhMuc>(entity =>
         {
-            entity.HasKey(e => e.MaDm).HasName("PK__DanhMuc__2725866E151A6F92");
+            entity.HasKey(e => e.MaDm).HasName("PK__DanhMuc__2725866EC089D94B");
 
             entity.ToTable("DanhMuc");
 
@@ -70,7 +65,7 @@ public partial class QlbanDoAnContext : DbContext
 
         modelBuilder.Entity<DonHang>(entity =>
         {
-            entity.HasKey(e => e.MaDh).HasName("PK__DonHang__27258661CD81FC8C");
+            entity.HasKey(e => e.MaDh).HasName("PK__DonHang__27258661F2F11995");
 
             entity.ToTable("DonHang");
 
@@ -87,12 +82,12 @@ public partial class QlbanDoAnContext : DbContext
 
             entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.DonHangs)
                 .HasForeignKey(d => d.MaKh)
-                .HasConstraintName("FK__DonHang__MaKH__46E78A0C");
+                .HasConstraintName("FK__DonHang__MaKH__59063A47");
         });
 
         modelBuilder.Entity<GioHang>(entity =>
         {
-            entity.HasKey(e => e.MaGh).HasName("PK__GioHang__2725AE854FCF65B8");
+            entity.HasKey(e => e.MaGh).HasName("PK__GioHang__2725AE8537899FFD");
 
             entity.ToTable("GioHang");
 
@@ -100,22 +95,24 @@ public partial class QlbanDoAnContext : DbContext
             entity.Property(e => e.MaKh).HasColumnName("MaKH");
             entity.Property(e => e.MaSp).HasColumnName("MaSP");
 
+            // ✅ Thêm Cascade Delete cho quan hệ KhachHang - GioHang
             entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.GioHangs)
                 .HasForeignKey(d => d.MaKh)
-                .HasConstraintName("FK__GioHang__MaKH__403A8C7D");
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__GioHang__MaKH__52593CB8");
 
             entity.HasOne(d => d.MaSpNavigation).WithMany(p => p.GioHangs)
                 .HasForeignKey(d => d.MaSp)
-                .HasConstraintName("FK__GioHang__MaSP__412EB0B6");
+                .HasConstraintName("FK__GioHang__MaSP__534D60F1");
         });
 
         modelBuilder.Entity<KhachHang>(entity =>
         {
-            entity.HasKey(e => e.MaKh).HasName("PK__KhachHan__2725CF1E8BA29FB7");
+            entity.HasKey(e => e.MaKh).HasName("PK__KhachHan__2725CF1E17A013BA");
 
             entity.ToTable("KhachHang");
 
-            entity.HasIndex(e => e.Email, "UQ__KhachHan__A9D105346700820D").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__KhachHan__A9D10534D296AF6F").IsUnique();
 
             entity.Property(e => e.MaKh).HasColumnName("MaKH");
             entity.Property(e => e.DiaChiMacDinh).HasMaxLength(255);
@@ -129,11 +126,11 @@ public partial class QlbanDoAnContext : DbContext
 
         modelBuilder.Entity<NhanVien>(entity =>
         {
-            entity.HasKey(e => e.MaNv).HasName("PK__NhanVien__2725D70A0F595E40");
+            entity.HasKey(e => e.MaNv).HasName("PK__NhanVien__2725D70ADC110F0C");
 
             entity.ToTable("NhanVien");
 
-            entity.HasIndex(e => e.Email, "UQ__NhanVien__A9D10534FD4C7E7F").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__NhanVien__A9D10534AD44F2FA").IsUnique();
 
             entity.Property(e => e.MaNv).HasColumnName("MaNV");
             entity.Property(e => e.Email).HasMaxLength(100);
@@ -147,7 +144,7 @@ public partial class QlbanDoAnContext : DbContext
 
         modelBuilder.Entity<SanPham>(entity =>
         {
-            entity.HasKey(e => e.MaSp).HasName("PK__SanPham__2725081CB09FF73E");
+            entity.HasKey(e => e.MaSp).HasName("PK__SanPham__2725081C0B5EAFCC");
 
             entity.ToTable("SanPham");
 
@@ -161,7 +158,7 @@ public partial class QlbanDoAnContext : DbContext
 
             entity.HasOne(d => d.MaDmNavigation).WithMany(p => p.SanPhams)
                 .HasForeignKey(d => d.MaDm)
-                .HasConstraintName("FK__SanPham__MaDM__3C69FB99");
+                .HasConstraintName("FK__SanPham__MaDM__4E88ABD4");
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using Project2.Models;
 
-namespace FastFood.Controllers
+namespace Project2.Controllers
 {
     public class HomeController : Controller
     {

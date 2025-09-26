@@ -1,59 +1,56 @@
 ﻿@model IEnumerable<Project2.Models.SanPham>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sách sản phẩm";
 }
 
-<h1>Index</h1>
+<h1 class="page-title">📦 Danh sách sản phẩm</h1>
+
+<!-- 🔙 Nút quay lại Dashboard -->
+<a asp-controller="Admin" asp-action="Dashboard" class="btn btn-outline-secondary mb-3">
+    ⬅ Quay lại Dashboard
+</a>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-success">+ Thêm sản phẩm mới</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.TenSp)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MoTa)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Gia)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Anh)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.MaDmNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.TenSp)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MoTa)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Anh)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MaDmNavigation.MaDm)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.MaSp">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.MaSp">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.MaSp">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+<div class="table-responsive">
+    <table class="table table-hover shadow-sm rounded">
+        <thead class="table-dark">
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Mô tả</th>
+                <th>Giá bán</th>
+                <th>Ảnh</th>
+                <th>Danh mục</th>
+                <th class="text-center">Hành động</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.TenSp)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
+                    <td>
+                        <span class="text-danger fw-bold">
+                            @item.Gia.ToString("N0") ₫
+                        </span>
+                    </td>
+                    <td>
+                        <img src="@(Url.Content("~/images/" + (item.Anh ?? "placeholder.png")))"
+                             alt="@item.TenSp" class="product-img" />
+                    </td>
+                    <td>@item.MaDmNavigation?.TenDm</td>
+                    <td class="text-center">
+                        <a asp-action="Edit" asp-route-id="@item.MaSp" class="btn btn-sm btn-primary">✏ Sửa</a>
+                        <a asp-action="Details" asp-route-id="@item.MaSp" class="btn btn-sm btn-info text-white">🔍 Xem</a>
+                        <a asp-action="Delete" asp-route-id="@item.MaSp" class="btn btn-sm btn-danger">🗑 Xóa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
